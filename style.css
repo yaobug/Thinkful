@@ -2,12 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
 header {
+  color: #003049;
    text-align: right;
   display: block;
   margin: 0 auto;
 }
 nav {
-   text-align: right;
+   text-align: center;
 }
 
 body {
@@ -19,17 +20,17 @@ body {
 
 /* Set the font family for any h1, h2, or h3 heading */
 h1 {
-  color: black;
+  color: #003049;
    text-align: center;
   font-family: "Playfair Display", Times, serif;
 }
 h2 {
-  color: black;
+  color: #003049;
   text-align: center;
   font-family: "Playfair Display", Times, serif;
 }
 h3 {
-  color: black;
+  color: #003049;
    text-align: center;
   font-family: "Playfair Display", Times, serif;
 }
@@ -40,18 +41,23 @@ article {
 
 article div {
   text-align: center;
+  line-height: 1.5;
   width: 100%;
 }
 
 p {
-  line-height: 1.0;
+  line-height: 1.5;
 }
 
+ul {
+  line-height: 0;
+}
 
 /* The div container constrains the content width within the main container to 600px */
 div {
   margin: auto;
   width: 600px;
+  line-height: 0;
 }
 
 img {
@@ -72,6 +78,8 @@ hr {
 }
 
 a:link {
-a:link { color: #d62828; }
-a:hover { color: #f77f00; }
+
+hover { color: #f77f00; }
+link { color: #d62828; }
+  
 }
