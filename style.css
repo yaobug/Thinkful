@@ -77,9 +77,10 @@ hr {
   border-property:  2px solid #003049
 }
 
-a:link {
-
-hover { color: #f77f00; }
-link { color: #d62828; }
-  
+a:link { 
+  color: #d62828;
 }
+a:hover {
+    color: #f77f00; 
+ }
+
