@@ -1,66 +1,72 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
-header {
-  color: #003049;
-   text-align: right;
-  display: block;
-  margin: 0 auto;
-}
-nav {
-   text-align: center;
+header{
+  text-align: center;
 }
 
+main {
+  text-align: center;
+  padding: 0%;
+  margin: 0% auto;
+}
 body {
   background-color: #eae2b7;
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 40px;
+  padding: 30%;
+  margin: 0%; 
 }
-
 /* Set the font family for any h1, h2, or h3 heading */
-h1 {
-  color: #003049;
-   text-align: center;
+h1{
   font-family: "Playfair Display", Times, serif;
-}
-h2 {
+  font-size: 300%;
   color: #003049;
   text-align: center;
+}
+h2 {
   font-family: "Playfair Display", Times, serif;
+  font-size: 200%;
+  color: #003049;
+  text-align: center;
+
 }
 h3 {
-  color: #003049;
-   text-align: center;
   font-family: "Playfair Display", Times, serif;
+  font-size: 150%;
+  color: #003049;
+  text-align: center;
 }
 
 article {
-  padding: 50px 0;
+  text-align: left;
+  max-width: 900px;
+  margin: 0 auto;
 }
-
+ul{
+  text-align: left;
+}
+ol {
+  text-align: left;
+}
 article div {
   text-align: center;
-  line-height: 1.5;
   width: 100%;
 }
 
 p {
+  tet-align: justify;
   line-height: 1.5;
-}
-
-ul {
-  line-height: 0;
 }
 
 /* The div container constrains the content width within the main container to 600px */
 div {
-  margin: auto;
   width: 600px;
-  line-height: 0;
+  margin: 0 auto;  
 }
 
 img {
+  text-align: center;
   width: 100%;
   max-width: 200px;
   height: auto;
@@ -73,14 +79,14 @@ hr {
 /* Add your solution below */
 
 .image-circle {
-  border-radius: 50%; 
-  border-property:  2px solid #003049
+  border-radius: 50%;
+  border: 2px solid #003049;;
+  color: #003049;
+  
+}
+footer {
+  text-align: center;
 }
 
-a:link { 
-  color: #d62828;
-}
-a:hover {
-    color: #f77f00; 
- }
-
+a:link { color: #d62828; }
+a:hover {color: #f77f00; }
